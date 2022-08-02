@@ -1,0 +1,9 @@
+{
+  "name": "@netherite/utils",
+  "version": "1.0.0",
+  "description": "Common files for NetheriteBit projects",
+  "main": "index.ts",
+  "repository": "https://github.com/NetheriteBit/netherite.git",
+  "author": "k3llydev <hello@k3lly.dev>",
+  "license": "MIT"
+}
