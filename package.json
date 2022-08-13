@@ -5,5 +5,13 @@
   "main": "index.ts",
   "repository": "https://github.com/NetheriteBit/netherite.git",
   "author": "k3llydev <hello@k3lly.dev>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd ./types/ && npm link && cd ../ && npm link @netherite/types",
+    "build": "tsc -b",
+    "a": "tsc --init"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
 }

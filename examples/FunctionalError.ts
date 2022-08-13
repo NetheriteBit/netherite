@@ -1,4 +1,4 @@
-import type { ResponseBasePayload } from '../types/ResponseBasePayload';
+import type { ResponseBasePayload } from '@netherite/types/ResponseBasePayload';
 
 const ResponsePayload: ResponseBasePayload<null> = {
     code: 'functional-error',
